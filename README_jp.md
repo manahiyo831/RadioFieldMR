@@ -1,7 +1,7 @@
 # RadioFieldMR 
 
 # 概要
-このAPPはRTL-SDRを使って、電波の強さを空間に表示するものです。以前に公開ましたANDROIDスマホ用のRadioFieldARをMETA QUEST用にしたものです。QUESTの高性能トラッキングにより、快適な測定ができます。また、QUEST3のカラーパススルーのおかげで測定結果も見やすくなっています。こちらの動画をご覧ください。
+このAPPはRTL-SDRで受信した信号に従って、電波の強さを空間に表示します。以前に公開ましたANDROIDスマホ用のRadioFieldARをMETA QUEST用にしたものです。QUESTの高性能トラッキングとQUEST3のカラーパススルーのおかげで、より測定が快適にできるようになりました。こちらの動画で紹介しています。
 
 - [動画1](https://youtu.be/FVZXz6tz3Ug)
 <img src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/bc41fb92-a089-426d-9376-7b5c74fdd1c7" width="50%">
@@ -9,9 +9,17 @@
 - [動画2](https://youtu.be/37uX_WTNvuA)
 <img src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/3e90962a-b3c6-468b-904b-41ca9eb701e2" width="50%">
 
-これは実験的なプロジェクトであり、今後いろいろ改善していく予定です。
+**注意:** 
 
-**注意:** このAPPは自己責任で使用してください。
+-これは実験的なプロジェクトであり、今後いろいろ改善していく予定です。tinySA-ULTRAにも対応を予定しています。
+
+-このAPPは自己責任で使用してください。
+
+-現時点では測定点は最大500個で制限しています
+
+-ガーディアンエリア内で使用してください
+
+
 
 ## 必要なもの
 - **META QUEST2 もしくはQUEST3:** QUEST-PROでも動作するはずですが持っていないので確認できていません。
@@ -20,9 +28,9 @@
  
   <img width="242" alt="image" src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/f9da3b71-660e-4558-944a-6a0cffb08a4e">
 
-- **OTGケーブル:** 当方はこちらを使用しています。他でも動作すると思いますが、動作しない場合もあるようなので注意してください。
+- **OTGケーブル:** 当方はこちらを使用しています。他でも動作すると思いますが、ものにより動作しない場合もあるようなので注意してください。
   [購入リンク](https://www.amazon.co.jp/gp/product/B08LH1K2HF)
-- **アンテナ:** 測定したい周波数に合わせたアンテナをRTL-SDRに接続してください。
+- **アンテナ:** 測定したい周波数に合わせたアンテナを用意してRTL-SDRに接続してください。
 
 ## インストール
 1. **RTL-SDRドライバー:**
@@ -60,18 +68,20 @@
    
    <img src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/af8d3ad2-217c-4e52-a62c-f8a06394d646" width="50%">
 4. Questのメニュー画面に戻るときがありますが、その場合は右手のパームピンチで再開してください。
-5. 左手を開くとスペクトルが表示されます。黄色の星の位置に電波強度を表す球が描画されます。アンテナをその位置に合わせると良いでしょう。
+5. 左手を開くとスペクトルが表示されます。右手の人差し指のところに黄色の星があります。この位置に電波強度を表す球が描画されます。
+   左手で星をつまむと星の位置を移動できます。アンテナの位置に合わせて位置を調整してください。
    
    <img src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/d0b33801-6da8-4561-b4bf-fc4e4c974e4d" width="50%">
-6. 設定ボタンから設定を行えます。
+6. 設定ボタンから周波数など各設定を行えます。
    
    <img src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/f6f60832-6f2f-468f-942e-de44c303419a" width="50%">
 7. 右手の`REC`ボタンを押すと空間上に記録を開始し、星が赤くなります。再度押すと記録を停止します。
     
     <img src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/5e6e5626-41b9-491d-bef6-4ce7d356b9ed" width="50%">
-    
+
+8. 右手を移動させて星を移動すると設定されたgridの間隔で球が描画されます。    
    <img src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/adf450cd-6b54-49d4-8212-241d0d6a7ff1" width="50%">
    
-8. `Switch Shape`ボタンで表示を球と霧で切り替えができます。
+9. `Switch Shape`ボタンで表示を球と霧で切り替えができます。
 
     <img src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/5d0dfd68-ec02-4ea6-8b48-b8e607855cea" width="50%">
