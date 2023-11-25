@@ -56,7 +56,9 @@ This app visualizes the strength of radio waves in space based on signals receiv
       
       <img src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/74f3f4d3-8bc1-43a6-8437-85d929526215" width="30%">
       
-4. **APP Installation:** Download and install this apk.
+4. **APP Installation:**
+   Download and install the apk file from release folder.
+   https://github.com/manahiyo831/RadioFieldMR/releases
 
 ## How to Use
 1. Launch the APP. This software is exclusively for hand tracking. Ensure hand tracking is functional and start the app without controllers.
