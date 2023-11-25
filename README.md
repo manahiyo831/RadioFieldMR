@@ -1,5 +1,8 @@
 # RadioFieldMR 
 
+日本語バージョンはこちら
+https://github.com/manahiyo831/RadioFieldMR/blob/main/README_jp.md
+
 ## Overview
 This app visualizes the strength of radio waves in space based on signals received with RTL-SDR. It is a version of RadioFieldAR, previously released for Android smartphones, now adapted for META QUEST. Thanks to QUEST's advanced tracking and QUEST3's color passthrough, measurements are more comfortable than ever. See it in action in these videos:
 
