@@ -57,7 +57,8 @@
       
       <img src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/74f3f4d3-8bc1-43a6-8437-85d929526215" width="30%">
       
-4. **APPのインストール:** こちらのapkをダウンロードしてインストールしてください。
+4. **APPのインストール:** こちらのリリースフォルダからapkをダウンロードしてインストールしてください。
+   https://github.com/manahiyo831/RadioFieldMR/releases
 
 ## 使い方
 1. APPを起動します。このソフトウェアはハンドトラッキング専用となっています。
