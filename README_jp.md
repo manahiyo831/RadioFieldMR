@@ -24,18 +24,18 @@
 ## 必要なもの
 - **META QUEST2 もしくはQUEST3:** QUEST-PROでも動作するはずですが持っていないので確認できていません。
   初代QUESTは対応していません。
-- **RTL-SDR:** 動作確認はV3で行っています。
+- **RTL-SDR** もしくは **tinySA-ULTRA** 
  
-  <img width="242" alt="image" src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/f9da3b71-660e-4558-944a-6a0cffb08a4e">
+<img width="566" alt="image" src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/b172b5a8-f903-498c-bb6f-d0d18ea3feb0">
 
 - **OTGケーブル:** 当方はこちらを使用しています。他でも動作すると思いますが、ものにより動作しない場合もあるようなので注意してください。
   [購入リンク](https://www.amazon.co.jp/gp/product/B08LH1K2HF)
 - **アンテナ:** 測定したい周波数に合わせたアンテナを用意してRTL-SDRに接続してください。
 
-## インストール
+## ドライバのインストール(RTL-SDRの場合のみ)
 1. **RTL-SDRドライバー:**
        apkファイルをダウンロードしてSideQuestを使用してインストールしてください。初めてapkをインストールする人はいくつか設定が必要です。詳細はWebで検索してください。
-3. **RTL-SDRの動作確認:**
+2. **RTL-SDRの動作確認:**
     - OTGケーブルを通してRTL-SDRとQUESTを接続します。
       
       <img width="308" alt="image" src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/ef2f0a4f-458c-4d62-ba6e-1ad4c5ead330">
@@ -57,32 +57,60 @@
       
       <img src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/74f3f4d3-8bc1-43a6-8437-85d929526215" width="30%">
       
-4. **APPのインストール:** こちらのリリースフォルダからapkをダウンロードしてインストールしてください。
+## APPのインストール
+  こちらのリリースフォルダからapkをダウンロードしてSideQuestを使用インストールしてください。
    https://github.com/manahiyo831/RadioFieldMR/releases
 
 ## 使い方
 1. APPを起動します。このソフトウェアはハンドトラッキング専用となっています。
    コントローラは置いて、ハンドトラッキングで操作できることを確認して起動してください。
   
-   <img src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/7124186e-698e-41eb-be64-b627eef5eac6" width="50%">
+  <img src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/7124186e-698e-41eb-be64-b627eef5eac6" width="50%">
+
+2. 次のような画面が出るので、使用するデバイスを選択してください
+
+  <img width="358" alt="image" src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/f9fe4b1e-2242-41f0-ba79-7d3f0f3e2abd">
+
 3. パーミッションの許可メッセージが出たら`OK`を選択します。
-   
-   <img src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/af8d3ad2-217c-4e52-a62c-f8a06394d646" width="50%">
-4. Questのメニュー画面に戻るときがありますが、その場合は右手のパームピンチで再開してください。
-5. 左手を開くとスペクトルが表示されます。右手の人差し指のところに黄色の星があります。この位置に電波強度を表す球が描画されます。
+
+    RTL-SDRの場合
+  
+    <img width="300" alt="image" src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/af8d3ad2-217c-4e52-a62c-f8a06394d646" width="50%">
+  
+    tinySA-ULTRAの場合
+  
+    <img width="300" alt="image" src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/38339e21-6375-47c5-9bda-943ec5bef25f">
+
+5. Questのメニュー画面に戻るときがありますが、その場合は右手のパームピンチで再開してください。
+
+6. **RTL-SDRの場合:** 左手を開くとスペクトルが表示されます。右手の人差し指のところに黄色の星があります。この位置に電波強度を表す球が描画されます。
    左手で星をつまむと星の位置を移動できます。アンテナの位置に合わせて位置を調整してください。
    
-   <img src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/d0b33801-6da8-4561-b4bf-fc4e4c974e4d" width="50%">
-6. 設定ボタンから周波数など各設定を行えます。
+   <img src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/d0b33801-6da8-4561-b4bf-fc4e4c974e4d" width="30%">
    
-   <img src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/f6f60832-6f2f-468f-942e-de44c303419a" width="50%">
-7. 右手の`REC`ボタンを押すと空間上に記録を開始し、星が赤くなります。再度押すと記録を停止します。
+   設定ボタンから周波数など各設定を行えます。
+   
+   <img src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/f6f60832-6f2f-468f-942e-de44c303419a" width="30%">
+
+7. **tinySA-ULTRAの場合:** 左手を開くと設定ボタンと現在の受信レベルが表示されます。右手の人差し指のところに黄色の星があります。この位置に電波強度を表す球が描画されます。
+   左手で星をつまむと星の位置を移動できます。アンテナの位置に合わせて位置を調整してください。
+   **マーカーの値を取得しているだけですので、周波数やレベルなどの各設定はtinSA側で行ってください**
+
+   <img width="462" alt="image" src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/13a948dd-1d25-4244-98fb-6febf9d23d63">
+
+   設定ボタンから周波数など各設定を行えます。
+
+   <img width="344" alt="image" src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/2a65793c-9dd6-41f4-a4a7-50138c5cb173">
+
+
+8. 右手の`REC`ボタンを押すと空間上に記録を開始し、星が赤くなります。再度押すと記録を停止します。
     
-    <img src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/5e6e5626-41b9-491d-bef6-4ce7d356b9ed" width="50%">
+   <img src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/5e6e5626-41b9-491d-bef6-4ce7d356b9ed" width="40%">
 
-8. 右手を移動させて星を移動すると設定されたgridの間隔で球が描画されます。    
-   <img src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/adf450cd-6b54-49d4-8212-241d0d6a7ff1" width="50%">
+9. 右手を移動させて星を移動すると設定されたgridの間隔で球が描画されます。    
+
+   <img src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/adf450cd-6b54-49d4-8212-241d0d6a7ff1" width="40%">
    
-9. `Switch Shape`ボタンで表示を球と霧で切り替えができます。
+10. `Switch Shape`ボタンで表示を球と霧で切り替えができます。
 
-    <img src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/5d0dfd68-ec02-4ea6-8b48-b8e607855cea" width="50%">
+    <img src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/5d0dfd68-ec02-4ea6-8b48-b8e607855cea" width="40%">
