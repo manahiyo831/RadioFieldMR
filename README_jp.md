@@ -1,7 +1,7 @@
 # RadioFieldMR 
 
 # 概要
-このAPPはRTL-SDRで受信した信号に従って、電波の強さを空間に表示します。以前に公開ましたANDROIDスマホ用のRadioFieldARをMETA QUEST用にしたものです。QUESTの高性能トラッキングとQUEST3のカラーパススルーのおかげで、より測定が快適にできるようになりました。こちらの動画で紹介しています。
+このAPPはRTL-SDRまたはtinySA-ULTRAで受信した信号に従って、電波の強さを空間に表示します。以前に公開ましたANDROIDスマホ用のRadioFieldARをMETA QUEST用にしたものです。QUESTの高性能トラッキングとQUEST3のカラーパススルーのおかげで、より測定が快適にできるようになりました。こちらの動画で紹介しています。
 
 - [動画1](https://youtu.be/FVZXz6tz3Ug)
 <img src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/bc41fb92-a089-426d-9376-7b5c74fdd1c7" width="50%">
@@ -11,7 +11,7 @@
 
 **注意:** 
 
--これは実験的なプロジェクトであり、今後いろいろ改善していく予定です。tinySA-ULTRAにも対応を予定しています。
+-これは実験的なプロジェクトであり、今後いろいろ改善していく予定です。
 
 -このAPPは自己責任で使用してください。
 
@@ -98,7 +98,7 @@
 
    <img width="462" alt="image" src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/13a948dd-1d25-4244-98fb-6febf9d23d63">
 
-   設定ボタンから周波数など各設定を行えます。
+   設定ボタンから各設定を行えます。
 
    <img width="344" alt="image" src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/2a65793c-9dd6-41f4-a4a7-50138c5cb173">
 
