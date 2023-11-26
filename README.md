@@ -1,6 +1,6 @@
 # RadioFieldMR 
 
-日本語バージョンはこちら
+日本語
 https://github.com/manahiyo831/RadioFieldMR/blob/main/README_jp.md
 
 ## Overview
