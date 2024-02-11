@@ -110,3 +110,16 @@ This app visualizes the strength of radio waves in space based on signals receiv
 9. Use the `Switch Shape` button to toggle between sphere and fog display.
 
     <img src="https://github.com/manahiyo831/RadioFieldMR/assets/83148498/5d0dfd68-ec02-4ea6-8b48-b8e607855cea" width="50%">
+
+2024/02/11 
+10. Added some features
+   Operation with controller
+   　A button - Start or Stop
+     X button - Menu
+     Right Trigger - Measure while pressing
+   ROOM MESH(only QUEST3)
+     Show the room mesh and export glTF file.
+     Introduced in this video.
+     
+     https://youtu.be/mvkS8E9iVmU
+     
